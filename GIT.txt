@@ -1,0 +1,31 @@
+echo "# progamacao_web" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Drolref/progamacao_web.git
+git push -u origin master
+
+
+
+MACETÃO DO DS
+
+Ao começar o trabalho sempre atualize as suas branchs com o GIT PULL.
+
+Para mudar de branch use o commando GIT CHECKOUT.
+
+Ao sair ou terminar uma implementação use o GIT COMMIT e GIT PUSH.
+
+GIT CLONE+URL: Para clonar um código
+
+GIT ADD . : adicionar todos os arquivos que eu alterei no meu commit
+
+
+git brach (nome da branch)
+
+git checkout (nome da branch)
+
+alteração do arquivo
+
+git add .
+
+git commit -m "o que foi feito"
