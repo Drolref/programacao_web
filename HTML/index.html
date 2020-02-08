@@ -1,13 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Document</title>
-</head>
-<body>
-    <H2>Fernando Oliveira</H2>
-    <label>Eu sou o Label</label>
-    <hr>
-    <p> Eu sou a tag de paragrafo</p>
-    <button> Eu sou um botão de rosa</button>
-</body>
-</html>
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <title>Document</title>
+            </head>
+            <style>
+
+                form {
+                    /*Colocar a tela no meinho [la ele]*/
+                    margin: 0 auto;
+                    width: 400px;
+                    border: 1px solid #120A8F;
+                    border-radius: 1em;
+                    padding: 10px;
+                    background-color:brown;
+                    }
+                    
+                    form div + div{
+                        margin-top: 7px
+                    }
+                    
+                    label {
+                        width: 95px;
+                        text-align: right;
+                        display: inline;
+                        color:cornsilk;
+                    }
+
+                    input{
+                        width: 300px;
+                        border: 1px solid teal;
+                        border-radius: 3px;
+                    }
+                    h3 {
+                        text-align: center;
+                        color:white;
+                    }
+
+                    textarea{
+                        font: 14px sans-serif;
+                        width: 300px;
+                        border: 1px solid teal;
+                        box-sizing: border-box;
+                        border-radius: 3px;
+                        vertical-align: top;
+                        height: 100px;
+                        
+                        
+                    }
+                        
+                    
+
+                    
+
+                    button{
+                        margin-left: 250px;
+                        border: 1px solid teal;
+                        border-radius: 3px;
+                    }
+                    body{
+                        background-color: rgb(138,14,8)
+                    }
+                        
+                    
+            </style>
+            <body>
+                <div name="título" style="text-align:center">
+
+
+                    <h3>Contato</h3>
+                </div>
+                <div id="form_contato">
+                <form action="contato.php" method="GET">
+                <div name="nome" style="text-align: center">
+                    <label>Nome:</label><br>
+                    <input type="text" id="nome_client" placeholder="Escreva sua mensagem">
+                     </div>
+
+
+                <div name="email" style="text-align: center">
+                    <label>Email:</label><br>
+                    <input type="email" id="email_client"   placeholder="Escreva sua mensagem">
+                 </div>
+
+                
+                 <div name="mensagem" style="text-align: center">
+                    <label>Mensagem:</label><br>
+                    <textarea id="mensagem_client" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+
+                
+                    <div name="botao" style="text-align: center">
+                    
+                    <button id="enviar">Enviar</button>
+                     </div>
+            </form>
+        </div>
+    </body>
+ </html>
