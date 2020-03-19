@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<div>
+			<h1>Jogo 21</h1>
+			<button>Play</button>
+			<button>Ranking</button>
+		</div>
+		<div>
+			<div>
+				<h1>Escolha quantos jogadores</h1>
+				<label>1 jogador</label>
+				<input/>
+				<label>2 jogadores</label>
+				<input/>
+				<button>Selecionar</button>
+			</div>
+		</div>
+		<div>
+			<div>
+				<h2>Escolha número entre 0 e 3</h2>
+				<input/>
+				<button>Confirmar</button>
+			</div>
+			<div>
+				<h1></h1>
+				<input/>
+				<button>Tentativa</button>
+			</div>
+			<div >
+				<h1 ></h1>
+			</div>
+		</div>
+		
+	</body>
+</html>
